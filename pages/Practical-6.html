@@ -6,18 +6,26 @@
     <title>Practical-6</title>
     <style>
         body{
-            background-color: rgb(189, 186, 184);
+            background-color:powderblue;
             margin: 0%;
             padding: 0%;
         }
+        .box:hover{
+            background-color: tomato;
+        }
+        .container{
+            margin: 40px 40px;
+        }
         #head1{
             color: white;
+            font-size: 200px;
             
         }
         .box{
-            margin:40px 20px 20px 20px;
+            margin-right: 40px;
+            margin-bottom: 40px;
             padding: 15px;
-            background-color: white;
+            background-color:pink;
             border:solid white;
             border-radius: 8px;
             width:250px;
@@ -53,7 +61,8 @@
     </style>
 </head>
 <body>
-    <h1 id="head1" >PRACTICAL-6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES.</h1>
+    <h1 id="head1" style="font-size: 35px;">PRACTICAL-6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES.</h1>
+    <div class="container">
     <div class="box">
         <img src="../images/HTML5.jpg" alt="html image"width="250px"  >
         <h3>Introduction to html</h3>
@@ -78,5 +87,6 @@
       <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based </p>  <a href="practical5pages/practical5-bootstrap.html">Read More</a>
         
     </div>
+</div>
 </body>
 </html>
