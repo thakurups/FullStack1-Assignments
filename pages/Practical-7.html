@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        
+        }
+        body p{
+            text-align: center;
+        }
+        
+        .outerbox{
+            
+            margin-right: auto;
+            margin-left: auto;
+            border: solid lightgrey;
+            min-width: 411px;
+            max-width: 411px;
+            max-height: 731px;
+            min-height: 731px;
+            background-color:white;
+            
+        }
+        .inner{
+            margin: 15px 20px;
+            height: 691px;
+            width: 371px;
+            border:solid rgb(240, 237, 237);
+            border-width: 5px;
+            background-color: white;
+            }
+        .header{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin: 4px;
+            height: 4%;
+            border: solid gray;
+            background-color: grey;
+            color: white;
+        }
+        .banner{
+            
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin: 4px;
+            height: 25%;
+            border:solid skyblue;
+            color: white;
+            background-color: skyblue;
+        }
+        .sec1{
+            height: 10%;
+            margin: 4px;
+        }.sec2{
+            height: 22%;
+            margin:4px;
+            
+        }
+        .sec3{
+            height: 14%;
+            margin: 4px;
+            
+        }
+        .footer{
+            
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            height: 4%;
+            margin: 4px;
+            border:solid hotpink;
+            color: white;
+            background-color: hotpink;
+        }
+        .box1{
+            /* border: solid black; */
+            background-color: gray;
+            margin-left: 1% ;
+            width: 47%;
+            height: 98%;
+            float:left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }.box2{
+            /* border: solid black; */
+            
+            width: 47%;
+            height: 98%;
+            float: right;
+        }
+        .circle {
+  margin-left: 5%;
+  height: 66px;
+  width: 66px;
+  background-color:rgb(221, 182, 8);
+  border-radius: 50%;
+  float: left;
+}
+.recbox{
+    height: 30%;
+    width: 99%;
+    margin: 3px 0px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.recbox2{
+    height: 99%;
+    width: 23%;
+    float:left;
+    background-color: red;
+    margin-left: 1.75%;
+    margin-right: auto;
+}
+    </style>
+
+</head>
+<body>
+    <div class="outerbox">
+        
+        <div class="inner">
+            
+            <div class="header">Header</div>
+            <div class="banner">Banner</div>
+            <p>Section-1</p>
+            <div class="sec1">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <p>Section-2</p>
+            <div class="sec2">
+                <div class="box1">Main Content</div>
+                <div class="box2">
+                    <div class="recbox">Article-1</div>
+                    <div class="recbox">Article-2</div>
+                    <div class="recbox">Article-3</div>
+
+                </div>
+                </div>
+            <p>Section-3</p>
+            <div class="sec3">
+                <div class="recbox2"></div>
+                <div class="recbox2"></div>
+                <div class="recbox2"></div>
+                <div class="recbox2"></div>
+            </div>
+            <p>Section-4</p>
+            <div class="footer">Footer</div>
+        </div>
+    </div>
+
+</body>
+</html>
